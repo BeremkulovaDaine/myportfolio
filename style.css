@@ -13,18 +13,6 @@ text-align: center;
 h1, h2{
   margin: 0 0 15px 0;
 }
-.btn{
-  color: white;
-  background-color: black;
-  text-decoration: none;
-  font-size: .875rem;
-  padding: 7px 30px 7px 30px;
-  margin-top: 20px;
-  border-radius: 10px;
-}
-.btn:hover{
-  background-color: darkslategrey;
-}
 .hero{
   height: 100vh;
   display: flex;
@@ -33,7 +21,6 @@ h1, h2{
 }
 .aboutme{
   position: absolute;
-  width: 100%;
   height: 100vh;
   display: flex;
   background-color: #583E26;
@@ -52,7 +39,7 @@ body{
   margin: 0;
 }
 img{
-  width: 125%;
+  width: 150%;
   z-index: 2;
   
 }
@@ -69,18 +56,7 @@ h2{
   position: absolute;
   
 }
-.t300{
-  top: 300px;
-}
-.t400{
-  top: 400px;
-}
-.t500{
-  top: 500px;
-}
-.t600{
-  top: 600px;
-}
+
 .krug{
   z-index: 1;
   position: absolute;
@@ -88,7 +64,7 @@ h2{
   height: 1px;
   top: 360px;
   left: 75%;
-  box-shadow: 0px 0px 230px 230px #583E26 ;
+  box-shadow: 0px 0px 250px 250px #583E26 ;
  }
 
 
@@ -174,3 +150,4 @@ a:nth-child(5){
   left: 470px;    
   background-color: #787D46;    
 }      
+
