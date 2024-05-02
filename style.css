@@ -178,7 +178,29 @@ a:nth-child(5){
  .history2{
   height: 100vh;
   display: flex;
-  background-color: #F2F2F0;
-  color:#583E26;
+  background-color: #583E26;
+  color:#F2F2F0;
  }
- 
+
+.his{
+  width: 75%;
+  border: 30px solid #583E26;
+}
+.hist{
+  width: 75%;
+  border: 30px solid #F2F2F0;
+}
+.histo{
+  width: 75%;
+  border: 30px solid #583E26;
+}
+.histor{
+  width: 100%;
+  border: 30px solid #F2F2F0;
+}
+.history4{
+  height: 100vh;
+  display: flex;
+  background-color: #583E26;
+  color:#F2F2F0;
+ }
