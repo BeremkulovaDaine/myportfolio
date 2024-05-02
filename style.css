@@ -4,36 +4,12 @@ html{
 .textcenter{
 text-align: center;
 }
-.hugetext{
-  font-size: 6rem;
-}
-.w100{
-  width: 100%;
-}
 h1, h2{
   margin: 0 0 15px 0;
 }
 img{
   z-index: 2;
   width: 125%;
-}
-.hero{
-  height: 100vh;
-  display: flex;
-  background-color: #F2F2F0;
-  color: #583E26;
-}
-.aboutme{
-  height: 100vh;
-  display: flex;
-  background-color: #583E26;
-  color:#F2F2F0;
-}
-.history1{
-  height: 100vh;
-  display: flex;
-  background-color: #F2F2F0;
-  color:#583E26;
 }
 .korobka{
   padding: 0 150px 0 100px;
@@ -47,10 +23,6 @@ img{
 body{
   margin: 0;
 }
-.photo{
-  width: 80%;
-  
-}
 h1{
   font-size: 80px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
@@ -59,21 +31,6 @@ h2{
   font-family:Courier New, monospace;
   font-size: 20px;
 }
-.prizrak{
-  width: 120px;
-  position: absolute;
-  
-}
-
-.krug{
-  z-index: 1;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  top: 360px;
-  left: 75%;
-  box-shadow: 0px 0px 250px 250px #583E26 ;
- }
 
 
  .logo{      
@@ -158,7 +115,37 @@ a:nth-child(5){
   left: 470px;    
   background-color: #787D46;    
 }      
-.krug2{
+
+.hero{
+  height: 100vh;
+  display: flex;
+  background-color: #F2F2F0;
+  color: #583E26;
+}
+.krug{
+  z-index: 1;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 360px;
+  left: 75%;
+  box-shadow: 0px 0px 250px 250px #583E26 ;
+ }
+
+
+.aboutme{
+  height: 100vh;
+  display: flex;
+  background-color: #583E26;
+  color:#F2F2F0;
+}
+ .me{
+  width: 250%;
+  height: 90%;
+  top:110%;
+  z-index: 2;
+ }
+ .krug2{
   z-index: 1;
   position: absolute;
   width: 1px;
@@ -168,14 +155,19 @@ a:nth-child(5){
   box-shadow: 0px 0px 200px 200px #F2F2F0 ;
 }
 
- .me{
-  width: 250%;
-  height: 90%;
-  top:110%;
-  z-index: 2;
- }
- 
+ .history1{
+  height: 100vh;
+  display: flex;
+  background-color: #F2F2F0;
+  color:#583E26;
+}
  .history2{
+  height: 100vh;
+  display: flex;
+  background-color: #583E26;
+  color:#F2F2F0;
+ }
+ .history4{
   height: 100vh;
   display: flex;
   background-color: #583E26;
@@ -198,8 +190,140 @@ a:nth-child(5){
   width: 100%;
   border: 30px solid #F2F2F0;
 }
-.history4{
+
+.achievements{
   height: 100vh;
+  display: flex;
+  background-color: #F2F2F0;
+  color:#583E26;
+}
+.ach{
+  width: 150%;
+}
+
+.achievements1{
+  height: 90vh;
+  display: flex;
+  background-color: #583E26;
+  color:#F2F2F0;
+}
+.kms{
+  width: 80%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+.v1{
+  width: 80%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+ .text p{
+  font-family:Courier New, monospace;
+  font-size: 20px;
+margin-top: 60px;
+ }
+
+ .linia{
+  height: 1vh;
+  display: flex;
+  background-color: #F2F2F0;
+  color:#583E26;
+ }
+
+ .achievements2{
+  height: 90vh;
+  display: flex;
+  background-color: #583E26;
+  color:#F2F2F0;
+}
+.g1{
+  width: 90%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+.g2{
+  width: 90%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+.g3{
+  width: 90%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+
+.achievements3{
+  height: 90vh;
+  display: flex;
+  background-color: #583E26;
+  color:#F2F2F0;
+}
+.m1{
+  width: 90%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+.m2{
+  width: 90%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+.m3{
+  width: 90%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+
+.achievements4{
+  height: 100vh;
+  display: flex;
+  background-color: #583E26;
+  color:#F2F2F0;
+}
+.t1{
+  width: 60%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+.t2{
+  width: 60%;
+  box-shadow: 0px 0px 30px 30px #F2F2F0;
+}
+
+.recomend{
+  height: 100vh;
+  display: flex;
+  background-color: #F2F2F0;
+  color:#583E26;
+}
+.mount{
+  width: 400%;
+  border: 30px solid #583E26;
+}
+
+.books{
+  height: 100vh;
+  display: flex;
+  background-color: #F2F2F0;
+  color:#583E26;
+}
+.b1{
+  width: 60%;
+  box-shadow: 0px 0px 30px 30px #583E26;
+}
+.b2{
+  width: 60%;
+  box-shadow: 0px 0px 30px 30px #583E26;
+}
+.b3{
+  width: 60%;
+  box-shadow: 0px 0px 30px 30px #583E26;
+}
+.b4{
+  width: 60%;
+  box-shadow: 0px 0px 30px 30px #583E26;
+}
+
+.linia1{
+  height: 1vh;
+  display: flex;
+  background-color: #583E26;
+  color:#F2F2F0;
+ }
+
+ .leg{
+  height: 10vh;
   display: flex;
   background-color: #583E26;
   color:#F2F2F0;
