@@ -13,6 +13,10 @@ text-align: center;
 h1, h2{
   margin: 0 0 15px 0;
 }
+img{
+  z-index: 2;
+  width: 125%;
+}
 .hero{
   height: 100vh;
   display: flex;
@@ -20,11 +24,16 @@ h1, h2{
   color: #583E26;
 }
 .aboutme{
-  position: absolute;
   height: 100vh;
   display: flex;
   background-color: #583E26;
   color:#F2F2F0;
+}
+.history1{
+  height: 100vh;
+  display: flex;
+  background-color: #F2F2F0;
+  color:#583E26;
 }
 .korobka{
   padding: 0 150px 0 100px;
@@ -38,9 +47,8 @@ h1, h2{
 body{
   margin: 0;
 }
-img{
-  width: 150%;
-  z-index: 2;
+.photo{
+  width: 80%;
   
 }
 h1{
@@ -150,4 +158,27 @@ a:nth-child(5){
   left: 470px;    
   background-color: #787D46;    
 }      
+.krug2{
+  z-index: 1;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 970px;
+  left: 25%;
+  box-shadow: 0px 0px 200px 200px #F2F2F0 ;
+}
 
+ .me{
+  width: 250%;
+  height: 90%;
+  top:110%;
+  z-index: 2;
+ }
+ 
+ .history2{
+  height: 100vh;
+  display: flex;
+  background-color: #F2F2F0;
+  color:#583E26;
+ }
+ 
